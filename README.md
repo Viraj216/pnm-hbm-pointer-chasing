@@ -36,3 +36,8 @@ RTL simulation:
 - Host overhead H and base-die setup time are assumed; only T_HBM is measured.
 - The access-pattern traces issue independent requests and do not model a
   dependency chain.
+
+## Build note
+Ramulator 2.1.0 + 33 commits (72427a1). The Ramulator working tree differs from
+that commit only in code-generated src/ramulator/dram/impl/*.cpp files; the
+Python presets (python/ramulator/dram/*.py) are unmodified.
