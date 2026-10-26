@@ -1,0 +1,6 @@
+[Ramulator::LatencyThroughputTrace] [[32minfo[0m] LatencyThroughputTrace: nop_counter=40000, latency_mode=random-probe, samples=10000, warmup=10000, bank_units=64
+[Ramulator::LatencyThroughputTrace] [[32minfo[0m] LatencyThroughputTrace: nop_counter=40000, latency_mode=random-probe, samples=10000, warmup=10000, bank_units=64
+
+[HBM3] avg probe latency: 159.7 ticks = 49.9 ns (theory nRP+nRCD+nCL = 48.1 ns, plus ~1 burst)
+
+[HBM4] avg probe latency: 189.6 ticks = 47.4 ns (theory nRP+nRCD+nCL = 46.0 ns, plus ~1 burst)

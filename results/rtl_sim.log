@@ -1,0 +1,7 @@
+t=105000  HOP: addr=0x1 -> next=0x2
+t=155000  HOP: addr=0x2 -> next=0x3
+t=205000  HOP: addr=0x3 -> next=0x4
+t=255000  HOP: addr=0x4 -> next=0x5
+t=305000  HOP: addr=0x5 -> next=0x0
+RESULT: hops_resolved=5 result_addr=0x0 total_cycles=29
+tb_pnm_controller.v:47: $finish called at 345000 (1ps)

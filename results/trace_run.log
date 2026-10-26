@@ -1,0 +1,18 @@
+[Ramulator::LoadStoreTrace] [[32minfo[0m] Loading trace file seq.trace ...
+[Ramulator::LoadStoreTrace] [[32minfo[0m] Loaded 20000 lines.
+[Ramulator::LoadStoreTrace] [[32minfo[0m] Loading trace file ll.trace ...
+[Ramulator::LoadStoreTrace] [[32minfo[0m] Loaded 20000 lines.
+[Ramulator::LoadStoreTrace] [[32minfo[0m] Loading trace file ind.trace ...
+[Ramulator::LoadStoreTrace] [[32minfo[0m] Loaded 20000 lines.
+
+[seq] cycles=92029  reads=20000
+  avg read latency: 195.3 cycles = 61.0 ns
+  row hit/miss/conflict: 93.6% / 2.5% / 3.9%
+
+[ll] cycles=137133  reads=20000
+  avg read latency: 327.4 cycles = 102.3 ns
+  row hit/miss/conflict: 0.0% / 2.7% / 97.3%
+
+[ind] cycles=95408  reads=20000
+  avg read latency: 231.3 cycles = 72.3 ns
+  row hit/miss/conflict: 46.2% / 2.7% / 51.1%

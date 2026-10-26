@@ -1,0 +1,29 @@
+== Ramulator ==
+72427a1bba3771564c4fb0e494ba02242fd1eaa7
+v2.1.0-33-g72427a1
+https://github.com/CMU-SAFARI/ramulator2.git
+-- modified tracked files (should be empty):
+ M src/ramulator/dram/impl/DDR3.cpp
+ M src/ramulator/dram/impl/DDR4.cpp
+ M src/ramulator/dram/impl/DDR4_VRR.cpp
+ M src/ramulator/dram/impl/DDR5.cpp
+ M src/ramulator/dram/impl/DDR5_VRR.cpp
+ M src/ramulator/dram/impl/GDDR6.cpp
+ M src/ramulator/dram/impl/GDDR7.cpp
+ M src/ramulator/dram/impl/HBM1.cpp
+ M src/ramulator/dram/impl/HBM2.cpp
+ M src/ramulator/dram/impl/HBM3.cpp
+ M src/ramulator/dram/impl/HBM4.cpp
+ M src/ramulator/dram/impl/LPDDR5.cpp
+ M src/ramulator/dram/impl/LPDDR6.cpp
+== OS / kernel ==
+PRETTY_NAME="Ubuntu 24.04.2 LTS"
+6.18.54.1-microsoft-standard-WSL2
+== Toolchain ==
+Python 3.12.3
+g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0
+cmake version 3.28.3
+Icarus Verilog version 12.0 (stable) ()
+== Python packages ==
+numpy 1.26.4
+matplotlib 3.6.3
